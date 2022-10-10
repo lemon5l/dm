@@ -21,9 +21,12 @@ int main(){
     }
     j=i;
     for(j=j-1;j>=0;j--){
-        for(int a=1;a<=16;a++){
+        for(int a=1;a<=16;){
             int num = rand()%20+1;
-            class1[j][num]=1;
+            if(class1[j][num]!=1){
+                class1[j][num]=1;
+                a++;
+            }
         }
     }
     for(k=1;k<=20;k++){
@@ -45,9 +48,12 @@ int main(){
     }
     j=i;
     for(j=j-1;j>=0;j--){
-        for(int a=1;a<=16;a++){
+        for(int a=1;a<=16;){
             int num = rand()%20+1;
-            class2[j][num]=1;
+            if(class2[j][num]!=1){
+                class2[j][num]=1;
+                a++;
+            }
         }
     }
     for(k=1;k<=20;k++){
@@ -69,9 +75,12 @@ int main(){
     }
     j=i;
     for(j=j-1;j>=0;j--){
-        for(int a=1;a<=16;a++){
+        for(int a=1;a<=16;){
             int num = rand()%20+1;
-            class3[j][num]=1;
+            if(class3[j][num]!=1){
+                class3[j][num]=1;
+                a++;
+            }
         }
     }
     for(k=1;k<=20;k++){
@@ -93,9 +102,12 @@ int main(){
     }
     j=i;
     for(j=j-1;j>=0;j--){
-        for(int a=1;a<=16;a++){
+        for(int a=1;a<=16;){
             int num = rand()%20+1;
-            class4[j][num]=1;
+            if(class4[j][num]!=1){
+                class4[j][num]=1;
+                a++;
+            }
         }
     }
     for(k=1;k<=20;k++){
@@ -117,9 +129,12 @@ int main(){
     }
     j=i;
     for(j=j-1;j>=0;j--){
-        for(int a=1;a<=16;a++){
+        for(int a=1;a<=16;){
             int num = rand()%20+1;
-            class5[j][num]=1;
+            if(class5[j][num]!=1){
+                class5[j][num]=1;
+                a++;
+            }
         }
     }
     for(k=1;k<=20;k++){

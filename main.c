@@ -4,7 +4,7 @@
 int main(){
     int totle=0;
     int valid=0;
-    int n=3;
+    int n=0;
     int k;
     int ran=10;
     int track=3;   //缺课人追踪次数 
